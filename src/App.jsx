@@ -187,6 +187,8 @@ const App = () => {
         <Route
           path="/profile-view"
           element={<ProfileView 
+            profiles={profiles}
+            hangoverTip={hangoverTip}
             user={user} 
             handleDeleteTip={handleDeleteTip}/>}
         />
